@@ -16,7 +16,7 @@ This is the original blog post that I followed to setup the environment.
 ![001](./images/001.JPG)
 
 2. Turn off **IE Enhanced Security Configuration**
-![002](./images/002.PNG)
+![002](./images/002.JPG)
 To install the following programs, you need to change the security setting for IE.
 
 3. Turn off **Windows Firewall** setting like below.
@@ -91,7 +91,7 @@ To install the following programs, you need to change the security setting for I
 ![019](./images/019.JPG)
 
 3. Create **Bot Service: Configuration**
-![020](./images/020.PNG)
+![020](./images/020.png)
 
 4. Update the configuration info for deployed bot.
 ![021](./images/021.JPG)
