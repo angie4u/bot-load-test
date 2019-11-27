@@ -95,6 +95,11 @@ To install the following programs, you need to change the security setting for I
 
 4. Update the configuration info for deployed bot.
 ![021](./images/021.JPG)
+    Those are the field you need to update
+    * Bot URL: http://**your-app-service-name**.azurewebsites.net/api/messages
+    * Callback URL: http://**your-vm-public-ip**:**your-port-number**
+    * Callback Server Listen Host: **your-vm-private-ip**
+    * Callback Server Listen Port: **your-port-number**
 
 5. Create **Bot Service: Security Configuration**
 ![029](./images/029.JPG)
