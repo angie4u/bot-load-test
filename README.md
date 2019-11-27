@@ -2,11 +2,11 @@
 I had a project which I need a load test for deployed bot.
 There was a blog post, but it doesn't give the detailed description how to configure load test environment for deployed bot so I wrote this tutorial.
 
-## Prerequisite
+## 1. Prerequisite
 Up and running bot! (If not, you can deploy one of the sample bots on github)
 ![000](./images/000.JPG)
 
-## Prepare a VM for Load Testing 
+## 2. Prepare a VM for Load Testing 
 ### Create a VM for Load Test Client (For Windows OS)
 This is the original blog post that I followed to setup the environment. 
 * [Stress Testing Bots in Azure Bot Service using Apache JMeter - Part 1](https://medium.com/microsoftazure/stress-testing-bots-in-azure-bot-service-using-apache-jmeter-part-1-3b440737fd8a)
@@ -74,7 +74,7 @@ To install the following programs, you need to change the security setting for I
 5. Paste those JAR files under Apache JMeter **~/lib/ext**
 ![017](./images/017.JPG)
 
-## Execute Load Testing for the bot
+## 3. Execute Load Testing for the bot
 ### Configuration for test VM on Azure Portal
 > I use 45678 port for this, but this can be any port number you prefer.
 1. Open Azure portal and go to the VM you create
